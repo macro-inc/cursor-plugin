@@ -1,0 +1,17 @@
+{
+  "name": "macro",
+  "owner": {
+    "name": "Macro",
+    "email": "support@macro.com"
+  },
+  "metadata": {
+    "description": "Macro's Cursor plugin",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "macro",
+      "source": "./"
+    }
+  ]
+}
