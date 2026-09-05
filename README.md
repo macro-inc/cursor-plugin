@@ -1,34 +1,20 @@
-# Cursor plugin template
+# Macro Cursor Plugin
 
-Build and publish Cursor Marketplace plugins from a single repo.
+Use your [Macro](https://macro.com) workspace from [Cursor](https://cursor.com). Plan and manage projects, create and assign tasks, and track progress; read, create, and edit documents; communicate with people and agents in channels; send and read emails; manage calendars and schedule events; and store, search, and retrieve context.
 
-Two starter plugins are included:
+## Overview
 
-- **starter-simple**: rules and skills only
-- **starter-advanced**: rules, skills, agents, commands, hooks, MCP, and scripts
+Connects Cursor to Macro's hosted MCP server. Sign in with your Macro account to get started.
 
-## Getting started
+## Installation
 
-[Use this template](https://github.com/cursor/plugin-template/generate) to create a new repository, then customize:
+Once available in the Cursor Marketplace:
 
-1. `.cursor-plugin/marketplace.json`: set marketplace `name`, `owner`, and `metadata`.
-2. `plugins/*/.cursor-plugin/plugin.json`: set `name` (lowercase kebab-case), `displayName`, `author`, `description`, `keywords`, `license`, and `version`.
-3. Replace placeholder rules, skills, agents, commands, hooks, scripts, and logos.
+1. In Cursor, open settings.
+2. Select **Plugins**, then **Browse Marketplace**.
+3. Find **Macro** and choose **Install**.
 
-To add more plugins, see `docs/add-a-plugin.md`.
+## Support
 
-## Single plugin vs multi-plugin
-
-This template defaults to **multi-plugin** (multiple plugins in one repo).
-
-For a **single plugin**, move your plugin folder contents to the repository root, keep one `.cursor-plugin/plugin.json`, and remove `.cursor-plugin/marketplace.json`.
-
-## Submission checklist
-
-- Each plugin has a valid `.cursor-plugin/plugin.json`.
-- Plugin names are unique, lowercase, and kebab-case.
-- `.cursor-plugin/marketplace.json` entries map to real plugin folders.
-- All frontmatter metadata is present in rule, skill, agent, and command files.
-- Logos are committed and referenced with relative paths.
-- `node scripts/validate-template.mjs` passes.
-- Repository link is ready for submission to the Cursor team (Slack or `kniparko@anysphere.com`).
+- [Macro documentation](https://docs.macro.com)
+- [Contact support](mailto:support@macro.com)

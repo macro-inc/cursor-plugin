@@ -1,0 +1,26 @@
+{
+  "name": "macro",
+  "version": "0.1.0",
+  "description": "Use Macro from Cursor. Plan and manage projects, create and assign tasks, and track progress; read, create, and edit documents; communicate with people and agents in channels; send and read emails; manage calendars and schedule events; and store, search, and retrieve context.",
+  "author": {
+    "name": "Macro",
+    "email": "support@macro.com",
+    "url": "https://macro.com"
+  },
+  "keywords": [
+    "macro",
+    "mcp",
+    "documents",
+    "tasks",
+    "project-management",
+    "channels",
+    "agents",
+    "email",
+    "calendar",
+    "context",
+    "search",
+    "collaboration"
+  ],
+  "logo": "logo.svg",
+  "primaryColor": "#ff8202"
+}
